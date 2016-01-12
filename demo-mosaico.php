@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>OFICINA DE MARCENARIA</title>
     <link rel="stylesheet" href="style.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="scripts/jquery-1.12.0.min.js"></script>
     <script src="scripts/mosaic/js/jquery.jMosaic.js"></script>
   </head>
   <body>
