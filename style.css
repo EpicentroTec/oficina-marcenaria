@@ -92,8 +92,28 @@ a:hover {
   margin: 5px;
 }
 
+/* Mosaico */
+
+.mosaico {
+  margin: 30px auto;
+  max-width: 680px;
+}
+
+.mosaico img {
+  display: block;
+  opacity: 0;
+  float: left;
+}
+
 /* Features */
 
 .hidden {
   display: none;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
 }
