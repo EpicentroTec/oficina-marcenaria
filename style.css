@@ -1,13 +1,19 @@
 /* Fontes */
 
 @font-face {
-    font-family: "Verdana";
-    src: url('fonts/Verdana.ttf');
+    font-family: "Roboto";
+    src: url('fonts/RobotoCondensed-Regular.ttf');
 }
 
 @font-face {
     font-family: "Raleway";
     src: url('fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-weight: bold;
+    src: url('fonts/Raleway-Bold.ttf');
 }
 
 /* Global */
@@ -23,9 +29,20 @@
 }
 
 body {
-  background-color: #bcbab5;
+  background-color: #fff;
   color: #333;
-  font: 16px "Verdana";
+  font: 18px "Open Sans";
+}
+
+@media (max-device-width: 660px) {
+
+  body {
+    /*padding: 15px;*/
+  }
+
+}
+
+p {
   line-height: 1.5em;
 }
 
@@ -35,68 +52,130 @@ img {
 }
 
 a {
-  color: #000;
+  color: #aa4400;
   text-decoration: none;
+  transition: color .2s;
 }
 
 a:hover {
-  color: #c00;
+  color: #333;
+  transition: color .2s;
 }
+
 
 /* Site Header */
 
 .site.header {
+  position: relative;
+}
+
+.site.header .logo.wrapper {
+  background-image: url('img/header.jpg');
+  background-size: cover;
   text-align: center;
+  width: 100%;
+}
+
+.site.header .logo.wrapper:after {
+  background-color: rgba(0, 0, 0, .3);
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  max-width: 100%;
 }
 
 .site.header .logo {
-  padding: 30px;
+  padding: 30px 15px;
+  position: relative;
+  z-index: 2;
 }
 
-.site.header nav ul li {
-  display: inline-block;
-  margin: 15px 60px;
+@media (max-width: 879px) {
+
+  .site.header nav .menu-title {
+    background-color: #eee;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset -1px -1px 0 rgba(255, 255, 255, 0.2);
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .site.header nav .menu-title a {
+    font: .9em "Raleway";
+    font-weight: bold;
+    text-shadow: 1px -1px 0 rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+  }
+
+  .site.header nav .menu-title a.active {
+    color: #333;
+  }
+
+  .site.header nav .menu-title a span:after {
+    content: '☰';
+    margin-left: 5px;
+  }
+
+  .site.header nav ul li {
+    background-color: #ccc;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset -1px -1px 0 rgba(255, 255, 255, 0.2);
+    display: none;
+    font: 1em 'Open Sans';
+    /*font-weight: bold;*/
+    padding: 15px;
+    position: relative;
+    text-align: center;
+  }
+
 }
 
-.site.header nav ul li a {
-  /*font-size: 1.2em;*/
-  text-transform: lowercase;
+@media (min-width: 879px) {
+
+  .site.header .logo.wrapper,
+  .cycle-slideshow,
+  .mosaico {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .9);
+  }
+
+  .site.header .logo {
+    width: 300px;
+  }
+
+  .site.header nav ul {
+    background-color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .site.header nav ul li {
+    display: inline-block;
+    font: 1em 'Raleway';
+    /*font-weight: bold;*/
+    padding: 15px;
+  }
+
+  .cycle-slideshow {
+    height: 500px;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+  .cycle-slideshow img {
+    width: 100%;
+  }
 }
 
 /* Main */
 
-.main .imagem-home {
+.imagem-home {
   display: block;
-  margin: 30px auto;
 }
 
-/* Footer */
-
-.footer {
-  text-align: center;
-}
-
-.footer .wrapper {
-  margin: 0 auto;
-  max-width: 680px;
-  position: relative;
-}
-
-.footer .lang {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.footer .lang span {
-  margin: 5px;
-}
-
-/* Mosaico */
 
 .mosaico {
-  margin: 30px auto;
-  max-width: 680px;
+  width: 100%;
 }
 
 .mosaico img {
@@ -104,6 +183,75 @@ a:hover {
   opacity: 0;
   float: left;
 }
+
+
+/* Endereço */
+
+.endereco {
+  background-color: #A30013;
+  color: #fff;
+}
+
+.endereco .mapa {
+  border: 0;
+  display: none;
+  height: 100vw;
+  max-height: 480px;
+  width: 100%;
+}
+
+.endereco p {
+  font: .9em "Roboto";
+  line-height: 1.5em;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.endereco p .fa {
+  margin: 0 5px;
+}
+
+.endereco .abrir-mapa {
+  cursor: pointer;
+  color: #E8A93A;s
+}
+
+/* Footer */
+
+.footer {
+  background-color: #A30013;
+  color: #fff;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: .9em;
+  padding: 15px 15px 0 15px;
+}
+
+.footer a {
+  color: #E8A93A;
+}
+
+.footer .lang {
+  background-color: #aa4400;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.9);
+  padding: 15px;
+  text-shadow: 1px .5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.footer .lang span {
+  font: 1.5em "Raleway";
+  font-weight: bold;
+  margin: 15px;
+}
+
+.footer .lang img {
+  margin-right: 2px;
+  width: 18px;
+}
+
 
 /* Features */
 
