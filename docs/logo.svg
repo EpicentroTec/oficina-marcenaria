@@ -73,7 +73,7 @@
      inkscape:cx="328.00328"
      inkscape:cy="457.58515"
      inkscape:document-units="px"
-     inkscape:current-layer="g3837"
+     inkscape:current-layer="g3899"
      showgrid="false"
      showborder="false"
      showguides="true"
@@ -91,7 +91,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -133,13 +133,13 @@
       </g>
       <g
          id="g3899"
-         style="fill:#ffffff;filter:url(#filter5327)"
+         style="fill:#779999;filter:url(#filter5327);fill-opacity:1"
          inkscape:export-filename="/opt/lampp/htdocs/projects/oficina-marcenaria/img/logox320.png"
          inkscape:export-xdpi="32.071602"
          inkscape:export-ydpi="32.071602">
         <g
            id="g3848"
-           style="fill:#ffffff;fill-opacity:1"
+           style="fill:#ffcc00;fill-opacity:1"
            transform="matrix(4.1156727,0,0,4.1156727,-1463.7398,-2292.617)">
           <rect
              y="667.56293"
@@ -147,9 +147,9 @@
              height="9.25"
              width="181.25"
              id="rect3801"
-             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+             style="fill:#ffcc00;fill-opacity:1;stroke:none" />
           <rect
-             style="fill:#ffffff;fill-opacity:1;stroke:none"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
              id="rect3803"
              width="181.25"
              height="9.25"
@@ -161,9 +161,9 @@
              height="9.25"
              width="181.25"
              id="rect3805"
-             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+             style="fill:#ffcc00;fill-opacity:1;stroke:none" />
           <rect
-             style="fill:#ffffff;fill-opacity:1;stroke:none"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
              id="rect3807"
              width="181.25"
              height="9.25"
@@ -175,13 +175,13 @@
              inkscape:connector-curvature="0"
              id="rect3819"
              d="m 361.9571,706.31298 c 18.59944,2.6e-4 37.09052,0.56178 55.47566,0.40252 13.60196,-0.15025 27.03039,-0.38687 39.59588,-3.53564 0,0 0,0 0,0 4.75663,-1.19583 9.30945,-2.78237 13.26957,-5.1433 3.56623,-2.11097 6.73156,-4.87464 9.09979,-8.14927 0,0 0,-10e-6 0,-10e-6 2.6468,-3.58461 4.43227,-7.93149 5.62619,-12.50898 1.52369,-5.88297 1.98387,-12.1548 2.00169,-18.53315 l 9.25,0 c 0.0178,6.85205 -0.53831,13.8871 -2.28955,20.82281 -1.37279,5.46911 -3.65332,10.86806 -7.11136,15.66518 -3.20252,4.37381 -7.29452,7.97845 -11.87979,10.67217 -5.01335,2.92825 -10.39225,4.85185 -15.74779,6.15451 -10e-6,0 -10e-6,0 -10e-6,0 -13.91735,3.39452 -28.05885,3.72103 -41.73508,3.80534 -18.62527,0.15897 -37.14286,-0.40244 -55.5552,-0.40218 0,-3.08333 0,-6.16667 0,-9.25 z"
-             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+             style="fill:#ffcc00;fill-opacity:1;stroke:none" />
         </g>
         <text
            xml:space="preserve"
-           style="font-size:143.90278624999999124px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Daumier Comique 1836;-inkscape-font-specification:Verdana Bold"
-           x="25.380562"
-           y="719.88037"
+           style="font-size:179.22218323000001305px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           x="24.651667"
+           y="728.84387"
            id="text3840"
            sodipodi:linespacing="125%"
            inkscape:export-filename="/opt/lampp/htdocs/projects/oficina-marcenaria/img/logo.png"
@@ -189,9 +189,9 @@
            inkscape:export-ydpi="295.29001"><tspan
              sodipodi:role="line"
              id="tspan3842"
-             x="25.380562"
-             y="719.88037"
-             style="font-size:50.36597443000000851px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Verdana;-inkscape-font-specification:Verdana Bold">OFICINA DE MARCENARIA</tspan></text>
+             x="24.651667"
+             y="728.84387"
+             style="font-size:62.72776412999999707px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffcc00;fill-opacity:1;font-family:Open Sans;-inkscape-font-specification:Open Sans">OFICINA DE MARCENARIA</tspan></text>
       </g>
     </g>
   </g>
